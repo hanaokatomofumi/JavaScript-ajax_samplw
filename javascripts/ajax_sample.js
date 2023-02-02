@@ -16,7 +16,7 @@ function ajax() {
         }
       }
     }
-    req.open("GET", "url.json");
+    req.open("GET", "ajax.json");
     req.responseType = "json"
     req.send(null);
   })
